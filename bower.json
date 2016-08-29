@@ -1,0 +1,45 @@
+{
+  "name": "orditable-frontend",
+  "version": "0.0.0",
+  "dependencies": {
+    "angular": "~1.5.0",
+    "angular-animate": "~1.5.0",
+    "angular-aria": "~1.5.0",
+    "angular-cookies": "~1.5.0",
+    "angular-messages": "~1.5.0",
+    "angular-resource": "~1.5.0",
+    "angular-route": "~1.5.0",
+    "angular-sanitize": "~1.5.0",
+    "angular-touch": "~1.5.0",
+    "angular-material": "~1.1.0",
+    "components-font-awesome": "~4.5.0",
+    "roboto-fontface": "~0.4.0",
+    "angular-native-dragdrop": "~1.2.0",
+    "angular-gantt": "~1.2.6",
+    "grunt": "~0.4.5",
+    "tinymce": "~4.3.7",
+    "firebase": "~3.1.0",
+    "angularfire": "~2.0.0",
+    "moment": "~2.12.0",
+    "angular-ui-tree": "~2.15.0",
+    "css-element-queries": "~0.3.2",
+    "jquery": "~2.2.1",
+    "Chart.js": "~2.1.2",
+    "viewer": "~0.11.0",
+    "tether": "~1.2.0",
+    "tether-shepherd": "~1.7.0",
+    "angular-material-data-table": "~0.9.12",
+    "angular-filter": "~0.5.8",
+    "ng-file-upload": "~12.0.1",
+    "ng-device-detector": "~3.0.1",
+    "angular-ui-tinymce": "^0.0.14"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.3.0"
+  },
+  "appPath": "app",
+  "moduleName": "orditableLandingApp",
+  "resolutions": {
+    "angular": "^1.3.0"
+  }
+}
