@@ -1,0 +1,23 @@
+<md-card class="max-width-300">
+  <md-card-content>
+    <div>
+      <p class="md-subhead">User Settings</p>
+    </div>
+    <div layout layout-align="center center">
+      <img ng-src="/images/settings.png"></img>
+    </div>
+    <div>
+      <p class="md-caption">Access and update your AuditLead settings here and logout once you are finished.</p>
+    </div>
+  </md-card-content>
+  <md-card-actions layout="row" layout-align="end center">
+    <md-button ng-click="$ctrl.back()" class="md-accent">
+      <span class="fa fa-arrow-left"></span>
+      <span>Back</span>
+    </md-button>
+    <md-button ng-click="$ctrl.next()" class="md-accent">
+      <span>Next</span>
+      <span class="fa fa-arrow-right"></span>
+    </md-button>
+  </md-card-actions>
+</md-card>

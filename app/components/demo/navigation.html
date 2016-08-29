@@ -1,0 +1,26 @@
+<md-card class="max-width-300">
+  <md-card-content>
+    <div>
+      <p class="md-subhead">AuditLead Navigation</p>
+    </div>
+    <div layout layout-align="center center">
+      <img ng-src="/images/navigation.png"></img>
+    </div>
+    <div>
+      <p class="md-caption">The navigation panel provides you quick access to any of the AuditLead modules.</p>
+    </div>
+    <div>
+      <p class="md-caption">The navigation panel also remembers recently opened items and will provide you quick access.</p>
+    </div>
+  </md-card-content>
+  <md-card-actions layout="row" layout-align="end center">
+    <md-button ng-click="$ctrl.back()" class="md-accent">
+      <span class="fa fa-arrow-left"></span>
+      <span>Back</span>
+    </md-button>
+    <md-button ng-click="$ctrl.next()" class="md-accent">
+      <span>Next</span>
+      <span class="fa fa-arrow-right"></span>
+    </md-button>
+  </md-card-actions>
+</md-card>

@@ -1,0 +1,25 @@
+<md-card class="max-dialog">
+  <div class="login-image">
+    <div layout layout-align="center center" class="padding-all-3">
+      <img ng-src="/images/banner_white_med.png"></img>
+    </div>
+  </div>
+  <md-card-content>
+    <div >
+      <p class="md-subhead">Welcome to AuditLead {{$ctrl.user.first}}!</p>
+    </div>
+    <div>
+      <p class="md-caption">Let's take a minute to quickly show you the basics on navigation around AuditLead.</p>
+    </div>
+  </md-card-content>
+  <md-card-actions layout="row" layout-align="end center">
+    <md-button ng-click="$ctrl.back()" class="md-accent">
+      <span class="fa fa-times"></span>
+      <span>Maybe Later</span>
+    </md-button>
+    <md-button ng-click="$ctrl.next()" class="md-accent">
+      <span class="fa fa-check"></span>
+      <span>Let's Go</span>
+    </md-button>
+  </md-card-actions>
+</md-card>
